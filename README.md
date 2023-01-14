@@ -36,6 +36,10 @@ Ubuntu 20.04 doesnt have the latest version of json-c and since SpadesX uses som
 > cmake ..
 >
 > make -jX (Replace X with number of threads you have on your system)
+>
+>cd /home/user/SpadesX/build
+>
+>./SpadesX
 
 ##### Windows
 You can use mingw, but you'll still have to install the libraries first.
