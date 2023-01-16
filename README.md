@@ -23,9 +23,9 @@ Be sure to install the development versions of those:
 * [libbsd](https://tracker.debian.org/pkg/libbsd) (Only on some systems)
 
 ##### Unix based systems
-Ubuntu 20.04 doesnt have the latest version of json-c and since SpadesX uses some functions that are in later releases you either have to build it on your own or update to 21.04+
 
->sudo apt-get install git cmake zliblg zliblg-dev libjson-c-dev libenet-dev libreadline-dev libbsd-dev
+
+>sudo apt-get install git cmake zlib1g zlib1g-dev libjson-c-dev libenet-dev libreadline-dev libbsd-dev
 >
 > git clone https://github.com/SpadesX/SpadesX
 >
@@ -37,7 +37,7 @@ Ubuntu 20.04 doesnt have the latest version of json-c and since SpadesX uses som
 >
 > make -jX (Replace X with number of threads you have on your system)
 >
->cd /home/user/SpadesX/build
+>cd SpadesX/build
 >
 >./SpadesX
 
