@@ -24,7 +24,7 @@ Be sure to install the development versions of those:
 ##### Unix based systems
 
 
->sudo apt-get install git cmake zlib1g-dev libjson-c-dev libenet-dev libreadline-dev libbsd-dev
+>sudo apt-get install git cmake zlib1g-dev libjson-c-dev libreadline-dev libbsd-dev
 >
 > git clone https://github.com/SpadesX/SpadesX
 >
